@@ -1,12 +1,12 @@
 ## Getting Started
 
-First, run the development server:
+First, install the packages:
 
 ```bash
 npm install --legacy-peer-deps
 ```
 
-You need to ```--legacy-peer-deps``` because one package isn't updated to work with ```React 18```
+You need to add ```--legacy-peer-deps``` because one package isn't updated to work with ```React 18```
 
 Secondly, run the development server:
 
