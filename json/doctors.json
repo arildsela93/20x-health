@@ -1,0 +1,137 @@
+[
+  {
+    "id": "doc-1",
+    "title": "Dr. Doctor One",
+    "description": "Surgeon One",
+    "icon": "fa-solid fa-user-nurse",
+    "timeslots": [
+      {
+        "id": 1,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 2,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 3,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 4,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 5,
+        "startTime": "",
+        "endTime": ""
+      }
+    ]
+  },
+  {
+    "id": "doc-2",
+    "title": "Dr. Doctor Two",
+    "description": "Surgeon Two",
+    "icon": "fa-solid fa-user-nurse",
+    "timeslots": [
+      {
+        "id": 1,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 2,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 3,
+        "startTime": "",
+        "endTime": ""
+      }
+    ]
+  },
+  {
+    "id": "doc-3",
+    "title": "Dr. Doctor Three",
+    "description": "Surgeon Three",
+    "icon": "fa-solid fa-user-nurse",
+    "timeslots": [
+      {
+        "id": 1,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 2,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 3,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 4,
+        "startTime": "",
+        "endTime": ""
+      }
+    ]
+  },
+  {
+    "id": "doc-4",
+    "title": "Dr. Doctor Four",
+    "description": "Surgeon Four",
+    "icon": "fa-solid fa-user-nurse",
+    "timeslots": [
+      {
+        "id": 1,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 2,
+        "startTime": "",
+        "endTime": ""
+      }
+    ]
+  },
+  {
+    "id": "doc-5",
+    "title": "Dr. Doctor Five",
+    "description": "Surgeon Five",
+    "icon": "fa-solid fa-user-nurse",
+    "timeslots": [
+      {
+        "id": 1,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 2,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 3,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 4,
+        "startTime": "",
+        "endTime": ""
+      },
+      {
+        "id": 5,
+        "startTime": "",
+        "endTime": ""
+      }
+    ]
+  }
+]

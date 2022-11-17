@@ -1,0 +1,34 @@
+.aside {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 70px;
+    width: 235px;
+    z-index: 8;
+    padding: 8rem 2rem;
+    box-shadow: 0 0 4px rgb(0 0 0 / 10%);
+    background: var(--white);
+
+    .menu {
+        li {
+            button {
+                background: none;
+                border: 0;
+                width: 100%;
+                display: flex;
+                border-radius: var(--radius-5);
+                font-weight: 500;
+                padding: 1rem 1rem;
+                align-items: center;
+                margin: 0 -1rem 1rem 0;
+                color: var(--grey);
+                transition: var(--transition);
+                outline: none;
+
+                &.active, &:hover {
+                    background: var(--yellow);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.box {
+    display: flex;
+    align-items: center;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-5);
+    margin-bottom: 4rem;
+    padding: 2rem;
+    cursor: pointer;
+    transition: var(--transition);
+
+    &.active, &:hover {
+        background: var(--yellow);
+        box-shadow: 0 1px 2px rgb(0 24 43 / 12%);
+    }
+
+    .left {
+        margin-right: 2rem;
+        font-size: 4rem;
+    }
+
+    .right {
+        h4 {
+            margin-bottom: 2rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.boxSmall {
+    display: flex;
+    align-items: center;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-5);
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    cursor: pointer;
+    transition: var(--transition);
+
+    &.active, &:hover {
+        background: var(--yellow);
+        box-shadow: 0 1px 2px rgb(0 24 43 / 12%);
+    }
+
+    .left {
+        margin-right: 2rem;
+        font-size: 3rem;
+    }
+
+    .right {
+        h4 {
+            margin-bottom: 1rem;
+        }
+    }
+}

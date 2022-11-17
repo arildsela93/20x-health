@@ -1,0 +1,235 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// FontAwesome
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+// Google Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --font-xs: 1.4rem;
+    --font-sm: 1.6rem;
+    --font-md: 1.8rem;
+    --font-lg: 2.4rem;
+    --font-xl: 3.6rem;
+    --font-xx: 5rem;
+    --font-xxx: 6rem;
+
+    --yellow: #fff6ef;
+    --green: #0c5455;
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #262423;
+    --red: #cf3442;
+
+    --radius-5: 5px;
+    --radius-15: 15px;
+
+    --transition: all 0.3s ease;
+
+    --font-family: 'Poppins', sans-serif;
+
+    --shadow: 0 1px 2px rgb(0 0 0 / 15%), 0 1px 6px rgb(0 0 0 / 15%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    scroll-behavior: smooth; // enables smooth navigation transition
+}
+
+body {
+    background: $white;
+    color: $black;
+    font-weight: 400;
+    overflow-x: hidden;
+    word-break: break-word;
+    font-size: var(--font-sm);
+    font-family: var(--font-family);
+}
+
+.main {
+    padding: 8rem 2rem 4rem;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+pre {
+    font-size: 100%;
+}
+
+// Reset Bootstrap
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    //max-width: 1140px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.row {
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+// Titles
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    line-height: 100%;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.h1, h1 {
+    font-size: var(--font-xxx);
+}
+
+.h2, h2 {
+    font-size: var(--font-xx);
+}
+
+.h3, h3 {
+    font-size: var(--font-xl);
+}
+
+.h4, h4 {
+    font-size: var(--font-lg);
+}
+
+.h5, h5 {
+    font-size: var(--font-md);
+}
+
+.h6, h6 {
+    font-size: var(--font-sm);
+}
+
+p {
+    font-size: var(--font-sm);
+    margin: 0;
+
+    &.small-prg {
+        font-size: var(--font-xs);
+    }
+}
+
+// Steps wizard
+.rsw_2Y {
+    overflow: hidden;
+}
+
+// Shortcuts
+.m1-b { margin-bottom: 1rem !important; }
+.m2-b { margin-bottom: 2rem !important; }
+.m3-b { margin-bottom: 3rem !important; }
+.m4-b { margin-bottom: 4rem !important; }
+.m5-b { margin-bottom: 5rem !important; }
+
+.m1-t { margin-top: 1rem !important; }
+.m2-t { margin-top: 2rem !important; }
+.m3-t { margin-top: 3rem !important; }
+.m4-t { margin-top: 4rem !important; }
+.m5-t { margin-top: 5rem !important; }
+
+.m1-r { margin-right: 1rem !important; }
+.m2-r { margin-right: 2rem !important; }
+
+.m1-l { margin-left: 1rem !important; }
+.m2-l { margin-left: 2rem !important; }
+
+// Calendar
+.appointment-calendar {
+    .sc-eDWCr {
+        margin: 0;
+        box-shadow: var(--shadow);
+
+        .rsm-date-title {
+            font-size: var(--font-sm);
+        }
+
+        .sc-gKPRtg {
+            overflow: hidden;
+
+            .sc-dkrFOg {
+                width: 31.3333%;
+                margin: 0 3% 2% 0;
+                font-size: var(--font-xs);
+                background: none;
+                color: var(--grey);
+                border: 1px solid var(--grey);
+
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+
+                &:hover {
+                    background: var(--green);
+                    border-color: var(--green);
+                    color: var(--white);
+                }
+            }
+        }
+    }
+}
+
+// Form
+.form-input {
+    width: 100%;
+    margin-bottom: 2rem;
+
+    input[type=text], input[type=email], input[type=number], select {
+        border: 1px solid var(--grey);
+        width: 100%;
+        height: 50px;
+        border-radius: var(--radius-5);
+        padding: 0 1rem;
+
+        &:active, &:focus {
+            outline: none;
+            border-color: var(--green);
+        }
+    }
+}
+
+.alert {
+    background: none;
+    border: 0;
+    padding: 0.5rem 0 0;
+
+    &-danger {
+        color: var(--red);
+    }
+}

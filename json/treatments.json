@@ -1,0 +1,44 @@
+[
+  {
+    "id": "treatment-one",
+    "title": "Treatment One",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "time": "30 min",
+    "icon": "fa-solid fa-user-doctor"
+  },
+  {
+    "id": "treatment-two",
+    "title": "Treatment Two",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "time": "60 min",
+    "icon": "fa-solid fa-stethoscope"
+  },
+  {
+    "id": "treatment-three",
+    "title": "Treatment Three",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "time": "90 min",
+    "icon": "fa-solid fa-eye"
+  },
+  {
+    "id": "treatment-four",
+    "title": "Treatment Four",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "time": "120 min",
+    "icon": "fa-solid fa-head-side-virus"
+  },
+  {
+    "id": "treatment-five",
+    "title": "Treatment Five",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "time": "150 min",
+    "icon": "fa-solid fa-people-pulling"
+  },
+  {
+    "id": "treatment-six",
+    "title": "Treatment Six",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "time": "180 min",
+    "icon": "fa-solid fa-heart-pulse"
+  }
+]
